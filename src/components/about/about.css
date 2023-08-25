@@ -1,0 +1,27 @@
+.aboutHome{
+  margin-top: 40%;
+}
+.aboutHome .items {
+  margin-top: 50px;
+}
+.aboutHome .item {
+  background-color: #e9e8e8;
+  margin-top: 10px;
+  padding: 40px;
+  transition: 0.5s;
+}
+.aboutHome .img {
+  width: 300px;
+}
+.aboutHome .item p {
+  color: #010101;
+}
+.aboutHome .item:hover {
+  background-color: #1eb2a6;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+}
+.aboutHome .item:hover p {
+  color: #fff;
+}
